@@ -15,6 +15,8 @@ public class StaticDemoBlock {
         System.out.println("in static method");
 
     }
+
+
     void display(){
         x= 0;
         cnt =0;
