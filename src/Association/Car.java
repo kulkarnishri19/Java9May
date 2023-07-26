@@ -2,7 +2,7 @@ package Association;
 
 public class Car {
     String carName;
-    String model ;
+    String model;
     String color;
     Engine engine;
     Mplayer mplayer;
@@ -15,11 +15,11 @@ public class Car {
         this.mplayer = mplayer;
     }
     void display (){
-        System.out.println("Car Name" +carName);
-        System.out.println("Model" +model);
-        System.out.println("Color" +color);
-        System.out.println("Mplayer" +mplayer);
-        System.out.println("engine "+ engine);
+        System.out.println("Car Name- " +carName);
+        System.out.println("Model -" +model);
+        System.out.println("Color -" +color);
+        System.out.println("Mplayer- " +mplayer);
+        System.out.println("engine  -"+ engine);
     }
 }
 class  Engine {

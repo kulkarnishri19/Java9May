@@ -1,14 +1,15 @@
 package Constructor;
 
 public class StaticDemoBlock {
-    int x ;
-    static  int cnt;
+    int x;
+    static int cnt;
 
     public static void main(String[] args) {
         cnt = 0;
         System.out.println("in main method");
 
     }
+
     static {
         cnt = 0;
         // x =0; //not allows
@@ -17,8 +18,8 @@ public class StaticDemoBlock {
     }
 
 
-    void display(){
-        x= 0;
-        cnt =0;
+    void display() {
+        x = 0;
+        cnt = 0;
     }
 }
